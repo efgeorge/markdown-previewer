@@ -1,0 +1,13 @@
+#editorWraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 1rem;
+    max-width: 40vw;
+}
+
+#editor {
+    max-width: 30rem;
+    max-height: 10vh;
+}
