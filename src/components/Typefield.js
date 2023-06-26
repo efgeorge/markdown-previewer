@@ -1,9 +1,10 @@
 import "../styles/Typefield.scss";
+import Toolbar from "./Toolbar";
 
 const Typefield = () => {
     return (
         <div id="editorWraper">
-            <div id="toolbar"></div>
+            <Toolbar title={"Editor"} />
             <textarea id="editor"></textarea>
         </div>
     )
