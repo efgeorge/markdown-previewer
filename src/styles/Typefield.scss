@@ -1,13 +1,15 @@
 #editorWraper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 10vh;
-    margin-top: 1rem;
-    max-width: 40vw;
+    max-width: 30vw;
+    margin: auto;
+    -webkit-box-shadow: 0 0 10px #000;
+            box-shadow: 0 0 10px #000;
+    border-radius: 3px;
 }
 
 #editor {
-    max-width: 30rem;
-    max-height: 10vh;
+    width: 99%;
+    max-height: 30rem;
+    // padding: 0 0.5rem 0.5rem 0.5rem;
+    background-color: #d2e9ed;
 }
