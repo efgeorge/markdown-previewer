@@ -5,7 +5,7 @@ const Typefield = () => {
     return (
         <div id="editorWraper">
             <Toolbar title={"Editor"} />
-            <textarea id="editor"></textarea>
+            <textarea id="editor" type="text"></textarea>
         </div>
     )
 }
