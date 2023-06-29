@@ -14,7 +14,7 @@ import { marked } from "marked";
 
 
 // TODO: pass markedVal as props from App.js
-const MarkedConverter = (props) => {
+const MarkedConverter = ({props}) => {
     const [markedVal, setMarkedVal] = useState(
         '# Default marked text\n' + "## This is a sub-heading...\n" + "Here is some code, `<div></div>`, between 2 backticks."
     );
