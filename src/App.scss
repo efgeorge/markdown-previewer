@@ -1,3 +1,5 @@
+@import "styles/vars";
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,6 +20,10 @@ time, mark, audio, video {
 	// font: inherit;
 	vertical-align: baseline;
 }
+
+html {
+	font-size: $font-size;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -25,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background: linear-gradient(60deg, #2192a9, #3c5a6a, #6497b1 80%);
+	background: linear-gradient(60deg, $color-blue-light-1, $color-blue-dark-1, $color-blue-light-2 80%);
 	height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
